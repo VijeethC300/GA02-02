@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TDS - GA 2.2</title>
+</head>
+
+<body>
+  <h1>TDS - GA 2.2</h1>
+  <div id="employees">
+    <h2>Employees</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Department</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr data-id="201" data-department="sales">
+          <td>201</td>
+          <td>John Doe</td>
+          <td>Sales</td>
+          <td>$55,000</td>
+        </tr>
+        <tr data-id="202" data-department="marketing">
+          <td>202</td>
+          <td>Jane Smith</td>
+          <td>Marketing</td>
+          <td>$65,000</td>
+        </tr>
+        <tr data-id="203" data-department="engineering">
+          <td>203</td>
+          <td>Emily Johnson</td>
+          <td>Engineering</td>
+          <td>$85,000</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
